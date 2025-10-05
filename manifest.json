@@ -1,7 +1,7 @@
 {
   "name": "Peacemaker Points",
   "short_name": "Points",
-  "start_url": ".",
+  "start_url": "/peacemakers/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
