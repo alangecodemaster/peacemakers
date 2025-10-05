@@ -1,0 +1,66 @@
+body {
+  font-family: "Poiret One", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card:hover {
+  background: #f5f5f5;
+}
+
+.icon-bg{
+  width: 80px;
+  height: 100px;
+  background: #ddd;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url('superheroes.jpg');
+  background-size: 323px;
+  background-position: center 49%;
+}
+.james{
+  background-position: center 93%;
+}
+.ruby{
+  width: 89px;
+  background-position: 5% 0;
+}
+.asa{
+  width: 104px;
+  background-position: 93% 49%;
+}
+.juliette{
+  background-position: 47% 0%;
+}
+.oliver{
+  background-position: 10% 49%;
+}
+
+button#reset {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+}
