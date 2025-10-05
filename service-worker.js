@@ -4,7 +4,9 @@ const ASSETS = [
   "/index.html",
   "/style.css",
   "/app.js",
-  "/manifest.json"
+  "/manifest.json",
+  "/superheroes.jpg",
+  "/icon-192.png"
 ];
 
 // Install event
